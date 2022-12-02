@@ -28,6 +28,9 @@ h1,h2,h3,p,ul {
     background-color: var(--pure-white);
 }
 .logo {
+    margin-top: 24px;
+    margin-right: 77px;
+    margin-bottom: 24px;
     color: var(--primary-brand);
     font-family: 'Raleway';
     font-weight: 800;
@@ -85,6 +88,8 @@ h1,h2,h3,p,ul {
 }
 .con-header {
     display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
 }
 .section {
     /* padding-top: 120px; */
