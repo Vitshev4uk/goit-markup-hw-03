@@ -48,6 +48,9 @@ h1,h2,h3,p,ul {
     letter-spacing: 1.5;
     color: var(--dark);
 }
+.menu-link:active {
+    color: var(--primary-brand);
+}
 .contact-phone {
     font-size: 16px;
     line-height: 1.5;
@@ -92,9 +95,10 @@ h1,h2,h3,p,ul {
 
 .hero {
     background-color: var(--dark);
-    padding-bottom: 120px;
+    padding-bottom: 192px;
   }
 .hero-title {
+    padding-top: 192px;
     margin-bottom: 48px;
     color: var(--pure-white);
     font-weight: 500;
@@ -155,6 +159,7 @@ h1,h2,h3,p,ul {
     display: none;
 }
 .secondary-title {
+    margin-bottom: 72px;
     font-weight: 500;
     font-size: 36px;
     line-height: 1.33;
@@ -173,6 +178,7 @@ h1,h2,h3,p,ul {
     color: var(--dark); 
 }
 .team-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -198,6 +204,7 @@ h1,h2,h3,p,ul {
     background-color: var(--dark);
 }
 .logo-footer {
+    margin-bottom: 16px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -226,6 +233,7 @@ h1,h2,h3,p,ul {
     color: var(--accent);
 }
 .title-list-works {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -233,4 +241,11 @@ h1,h2,h3,p,ul {
     color: var(--dark);
 }
 
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.list-works {
+    padding-top: 72px;
+}
 
