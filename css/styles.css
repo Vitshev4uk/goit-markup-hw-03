@@ -41,12 +41,18 @@ h1,h2,h3,p,ul {
 .text-logo {
     color: var(--dark);
 }
+.menu {
+    display: flex;
+}
 .menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1.5;
     color: var(--dark);
+}
+.menu-contacts {
+    display: flex;
 }
 .menu-link:active {
     color: var(--primary-brand);
@@ -168,6 +174,15 @@ h1,h2,h3,p,ul {
     text-transform: capitalize;
     color: var(--dark);
 }
+.works-list {
+    display: flex;
+}
+.apps-list {
+    display: flex;
+}
+.team-list {
+    display: flex;
+}
 
 .works-title {
     margin-bottom: 8px;
@@ -247,5 +262,14 @@ h1,h2,h3,p,ul {
 }
 .list-works {
     padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
 }
+/* .container-filter-btn {
+    width: 1158px;
+    margin-top: 96px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 2px solid red;
+} */
 
