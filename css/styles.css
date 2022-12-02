@@ -265,6 +265,9 @@ h1,h2,h3,p,ul {
     display: flex;
     flex-wrap: wrap;
 }
+.filter-btn {
+    display: flex;
+}
 /* .container-filter-btn {
     width: 1158px;
     margin-top: 96px;
