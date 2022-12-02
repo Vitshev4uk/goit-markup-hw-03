@@ -83,6 +83,9 @@ h1,h2,h3,p,ul {
     margin-left: auto;
     outline: 2px solid red;
 }
+.con-header {
+    display: flex;
+}
 .section {
     /* padding-top: 120px; */
     padding-bottom: 120px;
