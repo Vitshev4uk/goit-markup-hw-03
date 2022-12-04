@@ -99,8 +99,8 @@ h1,h2,h3,p,ul {
 }
 .container {
     width: 1158px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
 
@@ -112,7 +112,6 @@ h1,h2,h3,p,ul {
 }
 
 .section {
-    /* padding-top: 120px; */
     padding-bottom: 120px;
 }
 .section-work {
@@ -292,6 +291,7 @@ h1,h2,h3,p,ul {
 }
 .title-list-works {
     margin-bottom: 8px;
+    width: 360px;
     
     font-weight: 500;
     font-size: 20px;
@@ -299,6 +299,7 @@ h1,h2,h3,p,ul {
     letter-spacing: 0.02em;
     color: var(--dark);
 }
+/* Портфоліо */
 
 .section-portfolio {
     padding-top: 96px;
@@ -317,18 +318,18 @@ h1,h2,h3,p,ul {
     padding-top: 72px;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: calc((100% - 48px)/3);
 }
 .list-works-item {
-    width: 360px;
-    gap: 24px;
-    flex-basis: calc((100%-48px)/3);
-    margin-bottom: 32px;
     border-bottom: 0.5px solid;
     border-color: var(--light);
+    /* outline: 1px solid red; */
+    /* margin-bottom: 24px; можна використати, щоб збільшити відступи між рядками */
 }
-.list-works-item:nth-child(3n) {
+/* .list-works-item:nth-child(3n) {
     margin-right: 0;
-}
+} */
 .list-works-item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
@@ -339,5 +340,6 @@ h1,h2,h3,p,ul {
 .img-app {
     display: block;
 }
-
- 
+.text-list-works {
+    margin-bottom: 32px;
+}
