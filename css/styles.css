@@ -104,7 +104,7 @@ h1,h2,h3,p,ul {
     margin-right: auto;
     margin-left: auto;
 
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 .con-header {
     display: flex;
