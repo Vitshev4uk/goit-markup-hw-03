@@ -131,16 +131,18 @@ h1,h2,h3,p,ul {
 }
 .section-team {
     background-color: var(--light);
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 /* Герой */
 
 .hero {
     background-color: var(--dark);
-    padding-bottom: 192px;
+    padding-bottom: 120px;
+    padding-top: 120px;
   }
 .hero-title {
-    padding-top: 192px;
+    /* padding-top: 192px; */
     margin-bottom: 48px;
 
     color: var(--pure-white);
@@ -215,7 +217,6 @@ h1,h2,h3,p,ul {
 }
 .secondary-title {
     margin-bottom: 72px;
-    padding-top: 120px;
 
     font-weight: 500;
     font-size: 36px;
@@ -273,6 +274,10 @@ h1,h2,h3,p,ul {
     letter-spacing: 0.02em;
     color: var(--text-col);
 }
+.container-our-team {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 /* Футер */
 
@@ -328,15 +333,13 @@ h1,h2,h3,p,ul {
 }
 
 .list-works {
-    padding-top: 72px;
+    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     flex-basis: calc((100% - 48px)/3);
 }
 .list-works-item {
-    border-bottom: 0.5px solid;
-    border-color: var(--light);
     /* outline: 1px solid red; */
     /* margin-bottom: 24px; можна використати, щоб збільшити відступи між рядками */
 }
@@ -348,7 +351,6 @@ h1,h2,h3,p,ul {
 }
 .img {
     display: block;
-    margin-bottom: 32px;
 }
 .img-app {
     display: block;
@@ -363,5 +365,14 @@ h1,h2,h3,p,ul {
     color: var(--dark);
 }
 .text-list-works {
-    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-col);
+}
+.container-works-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 0.5px solid;
+    border-color: var(--light);
 }
